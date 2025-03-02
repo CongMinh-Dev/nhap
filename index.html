@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="bán cà phê múi ngon chất lượng">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Bán cà phê</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <style>
+            h2{background-color: yellow;}
+        </style>
+    </head>
+
+    <body>
+        <h1 style="background-color: #866448; color: red; text-align: center;" > Tiêu đề</h1>       <!-- style là thuộc tính (inline css) -->
+
+        <a href="https://www.google.com.vn/" target="_blank">google</a>
+        <a href="#menu" >menu</a>
+
+        <hr style="width: 500px; height: 4px;" noshade="" >         <!-- thẻ này không cần nhớ -->
+
+        <p> 
+            <b>Lorem</b> 
+            <i>ipsum</i>  
+            <b>
+                <i>dolor sit,</i>
+            </b>
+              amet consectetur adipisicing elit. <br> Quaerat voluptates fugiat eveniet cumque ex, atque quam saepe minima itaque voluptatibus dolor unde voluptate harum vero maxime laboriosam aspernatur ab. Soluta expedita, est voluptates necessitatibus iure illum quibusdam odit, ullam sunt ipsum repellendus doloribus in. Atque, accusamus. Ipsa ea magni laborum.
+        </p>         <!-- Lorem50:  auto tạo chữ.    <br> xuống hàng, chỉ dùng trong văn bản không dùng cho thẻ khác -->
+        
+        <ul>                <!-- không đánh số-->
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+
+        <ol>                <!-- tự đánh số-->
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ol>
+        <ol type="I" >      <!-- type là để thay đổi kiểu đánh số -->
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ol>
+
+        <img src="./img/giam-dung-luong-anh.jpg" alt="sử dụng laptop" style=" height: 500px;" >  <!-- ../ là nhảy thư mục cha-->
+         
+        <!-- chỉ xài đúng cho thằng table những thằng khác k xài. nguyên cái bảng sẽ vào giữa-->
+        <table id="menu" border="5" style=" height: 200px; width: 500px;" align="center">   
+            <tr>
+                <th colspan="2">1</th>
+                <th>1</th>
+                <th>1</th>
+            </tr>
+            <tr>
+                <td rowspan="2" style="background-image: url(./img/giam-dung-luong-anh.jpg);">2</td>
+                <td rowspan="2">2</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+        </table>
+    
+        <h2>demo css</h2>
+
+        <div class="nhap">
+            <div>
+                <p class="mot">con</p>  
+                <p>con 2</p>
+                <div>
+                    <span>con con</span>  
+                </div>
+            </div>
+            <p>2</p>    
+        </div>
+        
+        <!-- <script src="./java/demo.java"></script> -->
+    </body>
+</html>
